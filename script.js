@@ -1,9 +1,20 @@
-const images = document.querySelectorAll('img');
+function changeLanguage() {
+    const language = document.getElementById('language').value;
+    alert("Language changed to: " + language); // Handle actual language change here.
+}
 
-// Loop through each image and add an event listener
-images.forEach(image => {
-  image.addEventListener('click', function() {
-    // Toggle the enlarged class on click
-    image.classList.toggle('enlarged');
-  });
-});
+function showCodeBox() {
+    document.getElementById('codeBox').style.display = 'block';
+}
+
+function hideCodeBox() {
+    document.getElementById('codeBox').style.display = 'none';
+}
+
+function showWifiCodeBox() {
+    document.getElementById('wifiCodeBox').style.display = 'block';
+}
+
+function hideWifiCodeBox() {
+    document.getElementById('wifiCodeBox').style.display = 'none';
+}
