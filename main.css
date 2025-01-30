@@ -209,12 +209,14 @@ a {
 .home-button button {
     background-color: #e0c188; /* Green background */
     color: white; /* White text */
-    padding: 10px 10px; /* Some padding */
+    padding: 5px 5px; /* Some padding */
     border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 50%; /* Makes the button round */
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    width: 60px; /* Set width */
+    height: 60px; /* Set height */
 }
 
 .home-button button:hover {
