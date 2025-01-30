@@ -10,7 +10,7 @@ body, html {
 
 /* Background with image and overlay */
 body {
-    background-image: url('images/fonto.png'); /* Replace with your background image */
+    background-image: url('images/fontoCheck.png'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -132,7 +132,7 @@ button:active {
     margin: 0 auto; /* Center the logo */
     max-width: 350px; /* Adjust the size as needed */
     height: auto; /* Keep the aspect ratio intact */
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .round-btn {
